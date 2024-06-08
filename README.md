@@ -29,6 +29,7 @@ To get started, follow these steps:
    ```bash
    pip install -r requirements.txt
    ```
+   Go to Gemini AI by clicking here https://aistudio.google.com/app/apikey, create an account if you didn't have one, then create a API key and paste it in the genimiAI.py file (There will be a comment stating "insert your own gemini api key here").
 
 3. **Run the application**:
    Start the Streamlit app by running the following command:
