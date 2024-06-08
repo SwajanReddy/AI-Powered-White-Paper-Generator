@@ -9,7 +9,7 @@ def check_net(r):
         print("failed connection to gemini")
 
 def init_bot(t):
-    genai.configure(api_key="AIzaSyBFudZup-mE9o7V-YSFFaEZA0y7pFmX898")
+    genai.configure(api_key="")     #Insert your own Gemini API Key here
     d1 = Document()
     model=genai.GenerativeModel(
     model_name="gemini-1.5-pro-latest",
